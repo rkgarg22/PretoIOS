@@ -81,6 +81,7 @@ class RestaurantDetailVC: UIViewController,markLikeServiceAlamofire,markFavourit
         createGradientLayer()
         hitGetRestaurantDetailApi()
         menuViewBottomConstraint.isActive = false
+        menuView.isHidden = true
     }
     
     override func viewDidLayoutSubviews() {
