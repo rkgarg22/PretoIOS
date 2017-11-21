@@ -1,0 +1,70 @@
+
+
+// General
+alert.okButtonTitle = "OK";
+alert.yesButtonTitle = "Yes";
+alert.noButtonTitle = "No";
+alert.cancelButtonTitle = "cancel";
+serverFailureResponseMessage = "Server Error";
+errorAlertTitle = "Preto";
+successAlertTitle = "success";
+warningAlertTitle = "warning";
+andText = "and";
+gpsDisableMessage = "Please change gps permission for the app in your device settings";
+internetConnectivityMessage = "Internet connection is required";
+logOutMessage = "Are you sure want to logout ?";
+
+
+// Categories name
+
+breakFast = "Breakfast";
+lunch = "Lunch";
+dinner = "Dinner";
+preOrder = "Pre-Order";
+snacks = "Snacks";
+others = "Others";
+nearYou = "NearYou";
+
+// Type of foods
+
+meats = "Meats";
+fromAuthor = "From Author";
+fishAndShellfish = "Fish and Shellfish";
+healthy = "Healthy";
+vegetarian = "Vegetarian";
+hamburgers = "Hamburgers";
+fusion = "Fusion";
+typical = "Typical";
+fast = "Fast";
+peruvian = "Peruvian";
+international = "International";
+mediterranean = "Mediterranean";
+
+// Type of payments
+
+cash = "Cash";
+sodex = "Sodex";
+debitCard = "Debit Card";
+bigPass = "Big Pass";
+creditCard = "Credit Card";
+supplies = "Supplies";
+
+
+
+// Sign up and login
+emailFieldEmptyAlertMessage = "Enter your email address";
+passwordFieldEmptyAlertMessage = "Enter password";
+
+// Sign up
+passwordFieldMatchAlertMessage = "Password does not match";
+signUpVc.NameFieldEmptyAlertMessage = "Enter your name";
+signUpVc.InvalidEmailAlertMessage = "Incorrect email address";
+signUpVc.EmailAlreadyExistAlertMessage = "E-mail id already exist";
+signUpVc.checkPrivacyPolicyMessage = "Please accept privacy policy";
+
+
+
+// restaurant list and detail
+
+fromText = "From $";
+toText = " - to $";

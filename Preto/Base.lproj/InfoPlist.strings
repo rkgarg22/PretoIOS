@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Preto
+
+  Created by RohitGarg on 14/09/17.
+  Copyright © 2017 apple. All rights reserved.
+*/
+
+
+"NSLocationWhenInUseUsageDescription" = "App wants to use gps to show restaurants location";

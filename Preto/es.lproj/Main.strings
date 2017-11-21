@@ -1,0 +1,371 @@
+/* Class = "UILabel"; text = "Description :"; ObjectID = "036-D5-CUF"; */
+"036-D5-CUF.text" = "Descripcion :";
+
+/* Class = "UILabel"; text = "Credit card"; ObjectID = "0Fg-Jo-oUY"; */
+"0Fg-Jo-oUY.text" = "T. crédito";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "1OF-Qw-1MN"; */
+"1OF-Qw-1MN.text" = "0";
+
+/* Class = "UILabel"; text = "Snacks"; ObjectID = "2Fl-yx-V3P"; */
+"2Fl-yx-V3P.text" = "Antojos";
+
+/* Class = "UILabel"; text = "HELP"; ObjectID = "2QX-dK-ni4"; */
+"2QX-dK-ni4.text" = "AYUDA";
+
+/* Class = "UILabel"; text = "Average cost :"; ObjectID = "3KE-2g-ecf"; */
+"3KE-2g-ecf.text" = "Rango precio :";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "3NG-hq-Aiz"; */
+"3NG-hq-Aiz.text" = "0";
+
+/* Class = "UILabel"; text = "Fish and shellfish"; ObjectID = "3lU-Lf-r2h"; */
+"3lU-Lf-r2h.text" = "Pescados y Mariscos";
+
+/* Class = "UIButton"; normalTitle = "OK\n"; ObjectID = "3t0-Dg-4DL"; */
+"3t0-Dg-4DL.normalTitle" = "ACEPTAR\n";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "464-6l-Ykj"; */
+"464-6l-Ykj.placeholder" = "Nombre";
+
+/* Class = "UILabel"; text = "Menu :"; ObjectID = "4XB-Gx-i1W"; */
+"4XB-Gx-i1W.text" = "Menu :";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "4dR-yB-Edq"; */
+"4dR-yB-Edq.placeholder" = "Correo";
+
+/* Class = "UILabel"; text = "TYPE OF FOOD:"; ObjectID = "4rB-rb-LcH"; */
+"4rB-rb-LcH.text" = "TIPO DE COMIDA:";
+
+/* Class = "UILabel"; text = "Dinner"; ObjectID = "7nT-2i-wOa"; */
+"7nT-2i-wOa.text" = "Cena";
+
+/* Class = "UIButton"; normalTitle = "    SEND    "; ObjectID = "7o8-Ne-FoW"; */
+"7o8-Ne-FoW.normalTitle" = "    ENVIAR    ";
+
+/* Class = "UILabel"; text = "Others"; ObjectID = "89b-zt-AzP"; */
+"89b-zt-AzP.text" = "Insumos";
+
+/* Class = "UILabel"; text = "SUPPLIES"; ObjectID = "8M0-QA-l4b"; */
+"8M0-QA-l4b.text" = "INSUMOS";
+
+/* Class = "UILabel"; text = "To go"; ObjectID = "8fV-6F-K9u"; */
+"8fV-6F-K9u.text" = "Para llevar";
+
+/* Class = "UILabel"; text = "BREAKFAST"; ObjectID = "9Uh-Yo-RcW"; */
+"9Uh-Yo-RcW.text" = "DESAYUNO";
+
+/* Class = "UILabel"; text = "healthy"; ObjectID = "ARr-zT-Qkr"; */
+"ARr-zT-Qkr.text" = "Saludable";
+
+/* Class = "UILabel"; text = "lunch"; ObjectID = "Ao0-6B-gN5"; */
+"Ao0-6B-gN5.text" = "Almuerzo";
+
+/* Class = "UILabel"; text = "Typical"; ObjectID = "BCp-q5-QeV"; */
+"BCp-q5-QeV.text" = "Típica";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "CL2-03-Tlp"; */
+"CL2-03-Tlp.normalTitle" = "";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "CjT-u5-znt"; */
+"CjT-u5-znt.text" = "Desde";
+
+/* Class = "UILabel"; text = "Cash"; ObjectID = "Cjx-Ma-H9R"; */
+"Cjx-Ma-H9R.text" = "Efectivo";
+
+/* Class = "UILabel"; text = "Average cost"; ObjectID = "D5F-Vp-KFB"; */
+"D5F-Vp-KFB.text" = "Rango precio";
+
+/* Class = "UILabel"; text = "ADVANCED FILTERS"; ObjectID = "ESC-HI-BYF"; */
+"ESC-HI-BYF.text" = "FILTROS AVANZADOS";
+
+/* Class = "UILabel"; text = "Mediterranean"; ObjectID = "Egh-Lh-n5V"; */
+"Egh-Lh-n5V.text" = "Mediterranea";
+
+/* Class = "UILabel"; text = "MENU"; ObjectID = "FRo-Ia-UyA"; */
+"FRo-Ia-UyA.text" = "MENU";
+
+/* Class = "UIButton"; normalTitle = "      REGISTER     "; ObjectID = "FaV-xB-dep"; */
+"FaV-xB-dep.normalTitle" = "      REGISTRATE     ";
+
+/* Class = "UILabel"; text = "Type of food :"; ObjectID = "Fw7-uh-haW"; */
+"Fw7-uh-haW.text" = "Tipo de comida :";
+
+/* Class = "UILabel"; text = "PRIVACY POLICY"; ObjectID = "GGu-Ee-foo"; */
+"GGu-Ee-foo.text" = "POLÍTICA DE PRIVACIDAD";
+
+/* Class = "UILabel"; text = "History :"; ObjectID = "HFs-Px-lBW"; */
+"HFs-Px-lBW.text" = "Historia :";
+
+/* Class = "UILabel"; text = "Comments"; ObjectID = "I3M-BH-1aT"; */
+"I3M-BH-1aT.text" = "Commentarios";
+
+/* Class = "UILabel"; text = "Category :"; ObjectID = "III-vC-xVQ"; */
+"III-vC-xVQ.text" = "Categoria :";
+
+/* Class = "UIButton"; normalTitle = "HOW DOES IT WORK"; ObjectID = "IIV-b0-sKe"; */
+"IIV-b0-sKe.normalTitle" = "CÓMO FUNCIONA";
+
+/* Class = "UILabel"; text = "Arrange by number of likes"; ObjectID = "J3S-Ot-50J"; */
+"J3S-Ot-50J.text" = "Número de Likes";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "Kra-Ek-atm"; */
+"Kra-Ek-atm.text" = "Hasta";
+
+/* Class = "UILabel"; text = "Sodexo"; ObjectID = "Ku7-ff-rFe"; */
+"Ku7-ff-rFe.text" = "Sodexo";
+
+/* Class = "UILabel"; text = "FAVORITES"; ObjectID = "L2O-ZH-cxf"; */
+"L2O-ZH-cxf.text" = "FAVORITOS";
+
+/* Class = "UILabel"; text = "Type of food"; ObjectID = "LRy-YG-fhd"; */
+"LRy-YG-fhd.text" = "Tipo de comida";
+
+/* Class = "UILabel"; text = "Payment\nmethod"; ObjectID = "M3t-mF-LfM"; */
+"M3t-mF-LfM.text" = "Forma de pago";
+
+/* Class = "UILabel"; text = "Fusion"; ObjectID = "NPT-at-S8Y"; */
+"NPT-at-S8Y.text" = "Fusión";
+
+/* Class = "UILabel"; text = "Open now"; ObjectID = "NV3-Jy-Mfr"; */
+"NV3-Jy-Mfr.text" = "Abierto ahora";
+
+/* Class = "UIButton"; normalTitle = "    SIGN IN     "; ObjectID = "Nyb-N9-Xcd"; */
+"Nyb-N9-Xcd.normalTitle" = "    INICIAR SESIÓN     ";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "Pcz-Pz-gBI"; */
+"Pcz-Pz-gBI.text" = "Categoría";
+
+/* Class = "UILabel"; text = "TYPE OF FOOD:"; ObjectID = "PiL-hb-j0l"; */
+"PiL-hb-j0l.text" = "TIPO DE COMIDA:";
+
+/* Class = "UIButton"; normalTitle = "back"; ObjectID = "Q6a-KC-jUL"; */
+"Q6a-KC-jUL.normalTitle" = "espalda";
+
+/* Class = "UILabel"; text = "LANGUAGE"; ObjectID = "QGO-qE-3M3"; */
+"QGO-qE-3M3.text" = "IDIOMA";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.\n\nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "QRp-71-nYk"; */
+"QRp-71-nYk.text" = "El dolor es un dolor de cabeza, el ceto del consecto es un adicto al pene, lo que hace el daño y el dolor. Ut enim ad minim veniam, quis nostrud ejercicio ullamco laboris nisi ut aliquip ex y commodo consequat. Duis aute irre dolor in reprehenderit in voluptar velit esse cillum dolore ue fugiat nulla pariatur. Excepteur sint occaecat cupidatat no proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor poen legum odioque civiuda. \ N \ nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore y dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ejercicio ullamco laboris nisi ut aliquip ex y commodo consequat. Duis aute irre dolor in reprehenderit in voluptar velit esse cillum dolore ue fugiat nulla pariatur. Excepteur sint occaecat cupidatat no proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient a factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "FAQ"; ObjectID = "RwJ-eP-Uvn"; */
+"RwJ-eP-Uvn.normalTitle" = "FAQ";
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "S6g-oZ-kY9"; */
+"S6g-oZ-kY9.text" = "Domicilio";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "T6M-ck-gLc"; */
+"T6M-ck-gLc.placeholder" = "Contraseña";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.\n\nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "TOw-lK-oA5"; */
+"TOw-lK-oA5.text" = "El dolor es un dolor de cabeza, el ceto del consecto es un adicto al pene, lo que hace el daño y el dolor. Ut enim ad minim veniam, quis nostrud ejercicio ullamco laboris nisi ut aliquip ex y commodo consequat. Duis aute irre dolor in reprehenderit in voluptar velit esse cillum dolore ue fugiat nulla pariatur. Excepteur sint occaecat cupidatat no proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor poen legum odioque civiuda. \ N \ nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore y dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ejercicio ullamco laboris nisi ut aliquip ex y commodo consequat. Duis aute irre dolor in reprehenderit in voluptar velit esse cillum dolore ue fugiat nulla pariatur. Excepteur sint occaecat cupidatat no proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient a factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Open"; ObjectID = "Tup-t7-iA0"; */
+"Tup-t7-iA0.text" = "Abierto";
+
+/* Class = "UILabel"; text = "INSTAGRAM"; ObjectID = "UQk-zI-yrn"; */
+"UQk-zI-yrn.text" = "INSTAGRAM";
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "UtU-z1-GEd"; */
+"UtU-z1-GEd.text" = "Entrega";
+
+/* Class = "UILabel"; text = "MESSAGE :"; ObjectID = "VRj-xU-rJn"; */
+"VRj-xU-rJn.text" = "MENSAJE :";
+
+/* Class = "UILabel"; text = "International"; ObjectID = "Vzc-dt-Fnu"; */
+"Vzc-dt-Fnu.text" = "Internacional";
+
+/* Class = "UILabel"; text = "Street address"; ObjectID = "XIc-Au-7VG"; */
+"XIc-Au-7VG.text" = "Dirección";
+
+/* Class = "UIButton"; normalTitle = "Already have an account? Sign in"; ObjectID = "Xac-DU-xJA"; */
+"Xac-DU-xJA.normalTitle" = "¿Ya tienes una cuenta? Inicia sesión";
+
+/* Class = "UILabel"; text = "INFORMATION"; ObjectID = "Xmv-VN-wOX"; */
+"Xmv-VN-wOX.text" = "INFORMACIÓN";
+
+/* Class = "UILabel"; text = "HOW DOES IT WORK"; ObjectID = "YQy-tQ-S3U"; */
+"YQy-tQ-S3U.text" = "COMO FUNCIONA";
+
+/* Class = "UILabel"; text = "EMAIL :"; ObjectID = "Yjv-hX-38U"; */
+"Yjv-hX-38U.text" = "CORREO :";
+
+/* Class = "UILabel"; text = "Opens on :"; ObjectID = "ZR5-GO-l97"; */
+"ZR5-GO-l97.text" = "Horario :";
+
+/* Class = "UILabel"; text = "Pre order"; ObjectID = "ZTF-0W-cj7"; */
+"ZTF-0W-cj7.text" = "Encargos";
+
+/* Class = "UILabel"; text = "Average cost:"; ObjectID = "ZX5-ON-3xC"; */
+"ZX5-ON-3xC.text" = "Rango de precio:";
+
+/* Class = "UILabel"; text = "SUBJECT :"; ObjectID = "b1w-e4-X7n"; */
+"b1w-e4-X7n.text" = "ASUNTO :";
+
+/* Class = "UILabel"; text = "●"; ObjectID = "bzD-IM-ItH"; */
+"bzD-IM-ItH.text" = "●";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cUN-QU-7jb"; */
+"cUN-QU-7jb.text" = "Label";
+
+/* Class = "UILabel"; text = "Vegetarian"; ObjectID = "d2g-8p-Nva"; */
+"d2g-8p-Nva.text" = "Vegetariana";
+
+/* Class = "UILabel"; text = "Average cost:"; ObjectID = "dTw-ka-SfC"; */
+"dTw-ka-SfC.text" = "Rango de precio:";
+
+/* Class = "UILabel"; text = "ACCEPT"; ObjectID = "ddV-2R-Viv"; */
+"ddV-2R-Viv.text" = "ACEPTO";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "eFq-Je-4Go"; */
+"eFq-Je-4Go.normalTitle" = "English";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "fgF-cu-jp9"; */
+"fgF-cu-jp9.placeholder" = "Correo";
+
+/* Class = "UILabel"; text = "Payment methods :"; ObjectID = "gXv-fA-7Pn"; */
+"gXv-fA-7Pn.text" = "Forma de pago :";
+
+/* Class = "UILabel"; text = "TERMS AND CONDITIONS"; ObjectID = "gl0-Sv-e2c"; */
+"gl0-Sv-e2c.text" = "TÉRMINOS Y CONDICIONES";
+
+/* Class = "UILabel"; text = "From author"; ObjectID = "h4n-RN-kDf"; */
+"h4n-RN-kDf.text" = "De autor";
+
+/* Class = "UILabel"; text = "DINNER"; ObjectID = "hHf-dn-mPJ"; */
+"hHf-dn-mPJ.text" = "CENA";
+
+/* Class = "UILabel"; text = "Others :"; ObjectID = "hKG-Jo-gBv"; */
+"hKG-Jo-gBv.text" = "Otros :";
+
+/* Class = "UILabel"; text = "Breakfast"; ObjectID = "hsL-ia-hDk"; */
+"hsL-ia-hDk.text" = "Desayuno";
+
+/* Class = "UILabel"; text = "PRE ORDER"; ObjectID = "ijg-kD-Li6"; */
+"ijg-kD-Li6.text" = "POR ENCARGO";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.\n\nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "jfy-57-pxx"; */
+"jfy-57-pxx.text" = "El dolor es un dolor de cabeza, el ceto del consecto es un adicto al pene, lo que hace el daño y el dolor. Ut enim ad minim veniam, quis nostrud ejercicio ullamco laboris nisi ut aliquip ex y commodo consequat. Duis aute irre dolor in reprehenderit in voluptar velit esse cillum dolore ue fugiat nulla pariatur. Excepteur sint occaecat cupidatat no proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor poen legum odioque civiuda. \ N \ nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore y dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ejercicio ullamco laboris nisi ut aliquip ex y commodo consequat. Duis aute irre dolor in reprehenderit in voluptar velit esse cillum dolore ue fugiat nulla pariatur. Excepteur sint occaecat cupidatat no proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient a factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "l6i-9e-06O"; */
+"l6i-9e-06O.placeholder" = "Contraseña";
+
+/* Class = "UILabel"; text = "JungleBox"; ObjectID = "l8x-ta-2sM"; */
+"l8x-ta-2sM.text" = "JungleBox";
+
+/* Class = "UILabel"; text = "Debit card"; ObjectID = "nBC-PR-CaI"; */
+"nBC-PR-CaI.text" = "T. débito";
+
+/* Class = "UILabel"; text = "CONTACT"; ObjectID = "oDr-nE-eZd"; */
+"oDr-nE-eZd.text" = "CONTACTO";
+
+/* Class = "UILabel"; text = "Call"; ObjectID = "pIP-kT-nE8"; */
+"pIP-kT-nE8.text" = "Liamar al sitio";
+
+/* Class = "UILabel"; text = "NAME :"; ObjectID = "pdN-AJ-JG0"; */
+"pdN-AJ-JG0.text" = "NOMBRE :";
+
+/* Class = "UILabel"; text = "PHONE NUMBER :"; ObjectID = "q6h-D0-SI9"; */
+"q6h-D0-SI9.text" = "TELÉFONO :";
+
+/* Class = "UILabel"; text = "Peruvian"; ObjectID = "qZU-Rg-6Sy"; */
+"qZU-Rg-6Sy.text" = "Peruana";
+
+/* Class = "UILabel"; text = "FAQ"; ObjectID = "qez-My-hBc"; */
+"qez-My-hBc.text" = "FAQ";
+
+/* Class = "UILabel"; text = "●"; ObjectID = "rDb-iC-pip"; */
+"rDb-iC-pip.text" = "●";
+
+/* Class = "UILabel"; text = "LUNCH"; ObjectID = "raU-dt-ocX"; */
+"raU-dt-ocX.text" = "ALMUERZO";
+
+/* Class = "UILabel"; text = "Hamburgers"; ObjectID = "sGG-BE-Kca"; */
+"sGG-BE-Kca.text" = "Hamburguesas";
+
+/* Class = "UIButton"; normalTitle = "Spanish"; ObjectID = "sW6-dJ-VpB"; */
+"sW6-dJ-VpB.normalTitle" = "Español";
+
+/* Class = "UILabel"; text = "Fast"; ObjectID = "sw3-8Q-xdB"; */
+"sw3-8Q-xdB.text" = "Rápida";
+
+/* Class = "UILabel"; text = "NEAR YOU"; ObjectID = "t8F-Vj-Z3k"; */
+"t8F-Vj-Z3k.text" = "CERCA DE TÍ";
+
+/* Class = "UILabel"; text = "Big pass"; ObjectID = "uFM-0L-NRv"; */
+"uFM-0L-NRv.text" = "Big pass";
+
+/* Class = "UILabel"; text = "meats"; ObjectID = "uiM-5q-ln3"; */
+"uiM-5q-ln3.text" = "Carnes";
+
+/* Class = "UILabel"; text = "Supplies"; ObjectID = "uos-zM-fGa"; */
+"uos-zM-fGa.text" = "Supplies";
+
+/* Class = "UILabel"; text = "When creating an account you agree to Preto ́s Terms and Conditions and its privacy policies."; ObjectID = "xS6-Lt-ftw"; */
+"xS6-Lt-ftw.text" = "Al crear una cuenta, usted se compromete a las condiciones del servicio de PRETO políticas de privacidad y de contenido";
+
+/* Class = "UILabel"; text = "Map"; ObjectID = "z8R-d5-xbg"; */
+"z8R-d5-xbg.text" = "Map";
+
+/* Class = "UILabel"; text = "SNACKS"; ObjectID = "zQt-6r-iSX"; */
+"zQt-6r-iSX.text" = "ANTOJOS";
+
+/* Class = "UILabel"; text = "Open"; ObjectID = "zc0-s8-5vX"; */
+"zc0-s8-5vX.text" = "abierto";
+
+/* Class = "UILabel"; text = "Website :"; ObjectID = "hez-9P-rnD"; */
+"hez-9P-rnD.text" = "Sitio web :";
+
+/* Class = "UILabel"; text = "ADD TO\nFAVOURITES :"; ObjectID = "3NG-hq-Aiz"; */
+"3NG-hq-Aiz.text" = "AGREGAR A\nFAVRITOS";
+
+/* Class = "UILabel"; text = "We recommend you :"; ObjectID = "clu-Ht-qjE"; */
+"clu-Ht-qjE.text" = "Te recomendamos";
+
+/* Class = "UILabel"; text = "This site recommends calling to confirm the availability of products."; ObjectID = "9mr-w7-ifx"; */
+"9mr-w7-ifx.text" = "Este sitio recomienda llamar a confirmar la disponibilidad de productos.";
+
+/* Class = "UILabel"; text = "Register using\nFacebook"; ObjectID = "nya-RL-r2n"; */
+"nya-RL-r2n.text" = "Continuar con\nFacebook";
+
+/* Class = "UILabel"; text = "Register using\nEmail"; ObjectID = "DsG-ZU-Mz8"; */
+"DsG-ZU-Mz8.text" = "Continuar con\nEmail";
+
+/* Class = "UIButton"; normalTitle = "Write your location"; ObjectID = "vzp-tb-9tV"; */
+"vzp-tb-9tV.normalTitle" = "Escribe tu ubicación";
+
+/* Class = "UILabel"; text = "To open with"; ObjectID = "rzq-CO-Ct1"; */
+"rzq-CO-Ct1.text" = "Abrir con";
+
+/* Class = "UILabel"; text = "To open with"; ObjectID = "xrg-ax-0g0"; */
+"xrg-ax-0g0.text" = "Abrir con";
+
+/* Class = "UILabel"; text = "To open with"; ObjectID = "ThF-Sw-8FR"; */
+"ThF-Sw-8FR.text" = "Abrir con";
+
+/* Class = "UILabel"; text = "WAZE"; ObjectID = "x9l-14-6YJ"; */
+"x9l-14-6YJ.text" = "WAZE";
+
+/* Class = "UILabel"; text = "APPLE MAPS"; ObjectID = "nhJ-ZD-lTF"; */
+"nhJ-ZD-lTF.text" = "GOOGLE MAPS";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "8yF-qI-PrX"; */
+"8yF-qI-PrX.normalTitle" = "Cancelar";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "YBV-ZL-Cw0"; */
+"YBV-ZL-Cw0.normalTitle" = "Cancelar";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "32r-og-sie"; */
+"32r-og-sie.normalTitle" = "Cancelar";
+
+/* Class = "UIButton"; normalTitle = "LIST"; ObjectID = "R5d-o7-hBh"; */
+"R5d-o7-hBh.normalTitle" = "LISTA";
+
+/* Class = "UIButton"; normalTitle = "MAP"; ObjectID = "rbl-sg-pUj"; */
+"rbl-sg-pUj.normalTitle" = "MAPA";
+
+
+
+
+
+

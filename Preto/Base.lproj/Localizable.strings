@@ -1,0 +1,296 @@
+
+
+// General
+alert.okButtonTitle = "OK";
+alert.yesButtonTitle = "Yes";
+alert.noButtonTitle = "No";
+alert.cancelButtonTitle = "cancel";
+serverFailureResponseMessage = "Server Error";
+errorAlertTitle = "Preto";
+successAlertTitle = "success";
+warningAlertTitle = "warning";
+andText = "and";
+gpsDisableMessage = "Please change gps permission for the app in your device settings";
+internetConnectivityMessage = "Internet connection is required";
+logOutMessage = "Are you sure want to logout ?";
+pullToRefersh = "Pull to refresh";
+
+
+// Categories name
+breakFast = "Breakfast";
+lunch = "Lunch";
+dinner = "Dinner";
+preOrder = "Pre-Order";
+snacks = "Snacks";
+supplies = "Supplies";
+nearYou = "NearYou";
+
+
+
+
+// Select login method
+facebookEmailNotExist = "Facebook email not exist";
+
+
+// Sign up and login
+emailFieldEmptyAlertMessage = "Enter your email address";
+passwordFieldEmptyAlertMessage = "Enter password";
+confirmEmailErrorMessage = "Email does not match";
+
+
+
+// Sign up
+passwordFieldMatchAlertMessage = "Password does not match";
+signUpVc.NameFieldEmptyAlertMessage = "Enter your name";
+signUpVc.InvalidEmailAlertMessage = "Incorrect email address";
+signUpVc.EmailAlreadyExistAlertMessage = "E-mail id already exist";
+signUpVc.checkPrivacyPolicyMessage = "Please accept privacy policy";
+
+
+
+// restaurant list and detail
+
+fromText = "From $";
+toText = " - to $";
+openText = "Open";
+noFixedTimeText = "No fixed time";
+closed = "Closed";
+list = "LIST";
+map = "MAP";
+cancel = "Cancel";
+toOpenWith = "To open with";
+
+
+
+// Favourites
+favourite = "FAVORITES";
+
+
+// restaurant detail
+noMailAccountAlertMessage = "Please check mail configuration in your device settings and try again.";
+noMailAccountAlertTitle = "Could Not Send Email";
+
+registeredSinceText = "Registered since:";
+informationText = "INFORMATION";
+menuText = "MENU";
+addToFavoritesText = "ADD TO FAVORITES";
+opensOnText = "Opens on";
+descriptionText = "Description";
+historyText = "History";
+paymentMethods = "Payment methods";
+othersText = "Others";
+websiteText = "Website";
+deliveryText = "Delivery";
+commentsText = "Comments";
+callText = "Call";
+callViewPopupTitle = "We recommend you";
+callViewDetailTitle = "This site recommends calling to confirm the availability of products.";
+phoneNumberNotAvial = "Phone number not available";
+showText = "Show";
+hideText = "Hide";
+
+
+
+
+
+
+
+
+
+
+
+
+// Change language
+changeLanguageSuccess = "language changed successfully";
+
+// Contact us
+apiSuccessMessage = "Message sent successfully";
+phoneFieldEmptyAlertMessage = "Enter phone number";
+subjectFieldEmptyAlertMessage = "Enter subject";
+messageFieldEmptyAlertMessage = "Enter message";
+
+
+// Directions
+directionsError = "Directions not found";
+
+
+// Maps
+restaurantAddressNotFound = "Restaurant address not found";
+writeYourLocation = "Enter your location";
+
+
+
+// Settings
+
+privacyPolicy = "PRIVACY POLICY";
+termsConditions = "TERMS AND CONDITIONS";
+help = "HELP";
+contactUs = "CONTACT US";
+selectLanguage = "SELECT LANGUAGE";
+logout = "LOG OUT";
+
+
+// Filters
+titleLabelText = "ADVANCED FILTERS";
+invalidRange = "Price range is invalid";
+openNowText = "Open now";
+averageCostTitle = "Average cost";
+from = "From";
+to = "To";
+categoryText = "Category";
+
+typesOfFoodText = "Type of food";
+
+
+
+americanaText = "American";
+crepesText = "Crepes";
+arabeText = "Arab";
+cubanaText = "Cuban";
+brasileraText = "Brazilian";
+signatureCuisineText = "Signature cuisine";
+meatsText = "Meats";
+espanolaText = "Spanish";
+cateringText = "Catering/Events";
+FrancesaText = "French";
+ChinaText = "China";
+fusionText = "Fusion";
+griegaText = "Greek";
+mexicanaText = "Mexican";
+hamburgersText = "Hamburgers";
+orientalText = "Oriental";
+heladosText = "Ice creams";
+otrosText = "Others";
+indiaText = "India";
+panaderiaText = "Bakery";
+insumosText = "Supplies";
+ParrillaText = "Grill";
+internationalText = "International";
+peruvianText = "Peruvian";
+italianText = "Italian";
+fishAndShellFishText = "Fish and shelfish";
+japoneseText = "Japanese";
+pizzaText = "Pizzas";
+mediterraneanText = "Mediterranean";
+fastText = "Fast";
+reposteraiText = "Cake shop";
+thaiText = "Thai";
+healthyText = "Healthy";
+typicalText = "Typical";
+sandwichText = "Sandwich";
+vegetarianText = "Vegetarian";
+sushiText = "Sushi";
+vietnamaText = "Vietnamese";
+
+
+
+arrangeByNoLikesText = "Arrange by number of likes";
+deliveryText = "Delivery";
+togoText = "To go";
+paymentMethodText = "Payment\nmethod";
+cashText = "Cash";
+sodexoText = "Sodexo";
+debitCardText = "Debit card";
+bigPassText = "Big pass";
+creditCardText = "Credit card";
+okButtonText = "OK";
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Select language
+
+Language = "LANGUAGE";
+english = "English";
+spanish = "Spanish";
+
+
+// select login method
+
+FacebookButtonText = "Register using\nFacebook";
+mailButtonText = "Register using\nEmail";
+
+
+
+// Registration
+
+nameTextField = "Name";
+emailTextField = "Email";
+confirmEmailTextField = "Confirm Email";
+password = "Password";
+acceptTermsAndPrivacy = "When creating an account you agree to Preto ́s Terms and Conditions and its privacy policies.";
+acceptButtonText = "ACCEPT";
+registerButtonText = "      REGISTER     ";
+alreadyHaveAccount = "Already have an account? Sign in";
+
+
+
+
+// Login
+
+signinButton = "    SIGN IN     ";
+
+
+// Privacy policy
+
+privacyPolicyTitle = "PRIVACY POLICY";
+
+
+
+// terms conditions
+
+termsConditionsTitle = "TERMS AND CONDITIONS";
+
+
+
+// help
+
+helpTitle = "HELP";
+howDoesItWork = "HOW DOES IT WORK";
+faq = "FAQ";
+
+
+
+// contact us
+
+conatctUsTitle = "CONTACT";
+nameLabel = "NAME :";
+phoneLabel = "PHONE NUMBER :";
+emailLabel = "EMAIL :";
+subjectLabel = "SUBJECT :";
+messageLabel = "MESSAGE :";
+sendButtonText = "    SEND    ";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

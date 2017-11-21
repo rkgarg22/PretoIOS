@@ -1,0 +1,1075 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1823E4141F53227600D5B2BA /* UITextViewFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823E4131F53227600D5B2BA /* UITextViewFontSize.swift */; };
+		1825FD171F0E6F1A0074DCCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD161F0E6F1A0074DCCE /* AppDelegate.swift */; };
+		1825FD1C1F0E6F1A0074DCCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1825FD1A1F0E6F1A0074DCCE /* Main.storyboard */; };
+		1825FD1F1F0E6F1A0074DCCE /* Preto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD1D1F0E6F1A0074DCCE /* Preto.xcdatamodeld */; };
+		1825FD211F0E6F1A0074DCCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1825FD201F0E6F1A0074DCCE /* Assets.xcassets */; };
+		1825FD241F0E6F1A0074DCCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1825FD221F0E6F1A0074DCCE /* LaunchScreen.storyboard */; };
+		1825FD2F1F0E6F1A0074DCCE /* PretoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD2E1F0E6F1A0074DCCE /* PretoTests.swift */; };
+		1825FD3A1F0E6F1A0074DCCE /* PretoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD391F0E6F1A0074DCCE /* PretoUITests.swift */; };
+		1825FD491F0E6FA10074DCCE /* AlamofireIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD471F0E6FA10074DCCE /* AlamofireIntegration.swift */; };
+		1825FD4A1F0E6FA10074DCCE /* FacebookIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD481F0E6FA10074DCCE /* FacebookIntegration.swift */; };
+		1825FD4E1F0E6FF20074DCCE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD4C1F0E6FF20074DCCE /* LoginVC.swift */; };
+		1825FD4F1F0E6FF20074DCCE /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD4D1F0E6FF20074DCCE /* RegistrationVC.swift */; };
+		1825FD521F0E708D0074DCCE /* LocalizedStringsCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD501F0E708D0074DCCE /* LocalizedStringsCode.swift */; };
+		1825FD531F0E708D0074DCCE /* CoreDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD511F0E708D0074DCCE /* CoreDataWrapper.swift */; };
+		1825FD5A1F0E70E80074DCCE /* UIButtonCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD541F0E70E80074DCCE /* UIButtonCustomClass.swift */; };
+		1825FD5B1F0E70E80074DCCE /* UILabelCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD551F0E70E80074DCCE /* UILabelCustomClass.swift */; };
+		1825FD5C1F0E70E80074DCCE /* UIViewCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD561F0E70E80074DCCE /* UIViewCustomClass.swift */; };
+		1825FD5D1F0E70E80074DCCE /* UIImageViewCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD571F0E70E80074DCCE /* UIImageViewCustomClass.swift */; };
+		1825FD5E1F0E70E80074DCCE /* UITextFieldCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD581F0E70E80074DCCE /* UITextFieldCustomClass.swift */; };
+		1825FD641F0E71050074DCCE /* UIButtonFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD611F0E71050074DCCE /* UIButtonFontSize.swift */; };
+		1825FD651F0E71050074DCCE /* UILabelFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD621F0E71050074DCCE /* UILabelFontSize.swift */; };
+		1825FD661F0E71050074DCCE /* UITextFieldFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD631F0E71050074DCCE /* UITextFieldFontSize.swift */; };
+		1825FD691F0E71290074DCCE /* activityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1825FD681F0E71290074DCCE /* activityIndicatorView.xib */; };
+		1825FD6F1F0E72240074DCCE /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD6A1F0E72240074DCCE /* Enum.swift */; };
+		1825FD701F0E72240074DCCE /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1825FD6B1F0E72240074DCCE /* FontAwesome.otf */; };
+		1825FD711F0E72240074DCCE /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD6D1F0E72240074DCCE /* FontAwesome.swift */; };
+		1825FD721F0E72240074DCCE /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FD6E1F0E72240074DCCE /* FontAwesomeView.swift */; };
+		182FF3C41F6E634E00B0BF19 /* FaqEnglishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FF3C31F6E634E00B0BF19 /* FaqEnglishVC.swift */; };
+		182FF3C61F6E648800B0BF19 /* PrivacyPolicyEnglishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FF3C51F6E648800B0BF19 /* PrivacyPolicyEnglishVC.swift */; };
+		182FF3C81F6E64C600B0BF19 /* TermsAndConditionsEnglishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FF3C71F6E64C600B0BF19 /* TermsAndConditionsEnglishVC.swift */; };
+		182FF3CA1F6E818800B0BF19 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182FF3C91F6E818800B0BF19 /* Info.plist */; };
+		1840D6751F497ACC004362FB /* InstagramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840D6741F497ACC004362FB /* InstagramVC.swift */; };
+		18424A381F4021C70029D158 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18424A341F4021C70029D158 /* Lato-Black.ttf */; };
+		18424A391F4021C70029D158 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18424A351F4021C70029D158 /* Lato-Bold.ttf */; };
+		18424A3A1F4021C70029D158 /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18424A361F4021C70029D158 /* Lato-Heavy.ttf */; };
+		18424A3B1F4021C70029D158 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18424A371F4021C70029D158 /* Lato-Light.ttf */; };
+		18424A3D1F4021D50029D158 /* MyriadPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18424A3C1F4021D50029D158 /* MyriadPro-Bold.otf */; };
+		18424A3F1F4021DD0029D158 /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18424A3E1F4021DD0029D158 /* MyriadPro-Regular.otf */; };
+		18424A411F402E120029D158 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18424A401F402E120029D158 /* Lato-Semibold.ttf */; };
+		18424A441F4060BB0029D158 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18424A461F4060BB0029D158 /* Localizable.strings */; };
+		188BD3621F30A13E004F7A0C /* customAnnotationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BD3611F30A13E004F7A0C /* customAnnotationClass.swift */; };
+		189E3AFB1F42F93300D58EB8 /* DirectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E3AFA1F42F93300D58EB8 /* DirectionVC.swift */; };
+		189E3AFD1F43162C00D58EB8 /* RestaurantScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E3AFC1F43162C00D58EB8 /* RestaurantScheduleTableViewCell.swift */; };
+		18E0F5081F2783BF0009E87E /* annotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E0F5071F2783BF0009E87E /* annotationView.xib */; };
+		6630E8BC881C5C21478E78F3 /* Pods_PretoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635F35158D34DEDF235EDA22 /* Pods_PretoUITests.framework */; };
+		6EFFD8DBA11FE424DA8C03DA /* Pods_Preto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4B905DEF0E511053A1A083 /* Pods_Preto.framework */; };
+		779D50E67F1A7A2F955F43D7 /* Pods_PretoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66992E4B539053219FE83575 /* Pods_PretoTests.framework */; };
+		F92F9E581F24C34100229735 /* HowDosItWorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F9E571F24C34100229735 /* HowDosItWorkVC.swift */; };
+		F93890E11F6AFCA200B1DD1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F93890E31F6AFCA200B1DD1F /* InfoPlist.strings */; };
+		F944C2E61F7EB1AC00FF5FDC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F944C2E51F7EB1AC00FF5FDC /* GoogleService-Info.plist */; };
+		F973D3F31F2DEDBF00491AE6 /* FavouriteRestaurantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F973D3F21F2DEDBF00491AE6 /* FavouriteRestaurantsVC.swift */; };
+		F9AE07811F125A880014EC70 /* SelectLanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE07801F125A880014EC70 /* SelectLanguageVC.swift */; };
+		F9AE07831F125AD60014EC70 /* SelectLoginMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE07821F125AD60014EC70 /* SelectLoginMethodVC.swift */; };
+		F9AE07851F125B490014EC70 /* PrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE07841F125B490014EC70 /* PrivacyPolicyVC.swift */; };
+		F9AE07871F125B830014EC70 /* TermsConditionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE07861F125B830014EC70 /* TermsConditionsVC.swift */; };
+		F9AE07891F125BF80014EC70 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE07881F125BF80014EC70 /* HelpVC.swift */; };
+		F9AE078B1F125C430014EC70 /* FaqVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE078A1F125C430014EC70 /* FaqVC.swift */; };
+		F9AE078D1F125C590014EC70 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE078C1F125C590014EC70 /* ContactUsVC.swift */; };
+		F9AE078F1F125CC20014EC70 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE078E1F125CC20014EC70 /* SettingsVC.swift */; };
+		F9AE07911F125D4B0014EC70 /* RestaurantDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE07901F125D4B0014EC70 /* RestaurantDetailVC.swift */; };
+		F9AE07931F1265EF0014EC70 /* RestaurantListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE07921F1265EF0014EC70 /* RestaurantListTableViewCell.swift */; };
+		F9AE07951F1266200014EC70 /* RestaurantListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE07941F1266200014EC70 /* RestaurantListVC.swift */; };
+		F9D7852B1F1B980D003E15A7 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7852A1F1B980D003E15A7 /* MapVC.swift */; };
+		F9E1A5B61F1A2E94006BF11B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1A5B51F1A2E94006BF11B /* HomeVC.swift */; };
+		F9E1A5BC1F1A31F3006BF11B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1A5BB1F1A31F3006BF11B /* Constant.swift */; };
+		F9E1A5BE1F1A519D006BF11B /* AdvancedFiltersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1A5BD1F1A519D006BF11B /* AdvancedFiltersVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1825FD2B1F0E6F1A0074DCCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1825FD0B1F0E6F1A0074DCCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1825FD121F0E6F1A0074DCCE;
+			remoteInfo = Preto;
+		};
+		1825FD361F0E6F1A0074DCCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1825FD0B1F0E6F1A0074DCCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1825FD121F0E6F1A0074DCCE;
+			remoteInfo = Preto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1823E4131F53227600D5B2BA /* UITextViewFontSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewFontSize.swift; sourceTree = "<group>"; };
+		1825FD131F0E6F1A0074DCCE /* Preto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825FD161F0E6F1A0074DCCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1825FD1B1F0E6F1A0074DCCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1825FD1E1F0E6F1A0074DCCE /* Preto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Preto.xcdatamodel; sourceTree = "<group>"; };
+		1825FD201F0E6F1A0074DCCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1825FD231F0E6F1A0074DCCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1825FD2A1F0E6F1A0074DCCE /* PretoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PretoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825FD2E1F0E6F1A0074DCCE /* PretoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretoTests.swift; sourceTree = "<group>"; };
+		1825FD301F0E6F1A0074DCCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825FD351F0E6F1A0074DCCE /* PretoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PretoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825FD391F0E6F1A0074DCCE /* PretoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretoUITests.swift; sourceTree = "<group>"; };
+		1825FD3B1F0E6F1A0074DCCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825FD471F0E6FA10074DCCE /* AlamofireIntegration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireIntegration.swift; sourceTree = "<group>"; };
+		1825FD481F0E6FA10074DCCE /* FacebookIntegration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookIntegration.swift; sourceTree = "<group>"; };
+		1825FD4C1F0E6FF20074DCCE /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1825FD4D1F0E6FF20074DCCE /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		1825FD501F0E708D0074DCCE /* LocalizedStringsCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedStringsCode.swift; sourceTree = "<group>"; };
+		1825FD511F0E708D0074DCCE /* CoreDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataWrapper.swift; sourceTree = "<group>"; };
+		1825FD541F0E70E80074DCCE /* UIButtonCustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonCustomClass.swift; sourceTree = "<group>"; };
+		1825FD551F0E70E80074DCCE /* UILabelCustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelCustomClass.swift; sourceTree = "<group>"; };
+		1825FD561F0E70E80074DCCE /* UIViewCustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewCustomClass.swift; sourceTree = "<group>"; };
+		1825FD571F0E70E80074DCCE /* UIImageViewCustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewCustomClass.swift; sourceTree = "<group>"; };
+		1825FD581F0E70E80074DCCE /* UITextFieldCustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldCustomClass.swift; sourceTree = "<group>"; };
+		1825FD611F0E71050074DCCE /* UIButtonFontSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonFontSize.swift; sourceTree = "<group>"; };
+		1825FD621F0E71050074DCCE /* UILabelFontSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelFontSize.swift; sourceTree = "<group>"; };
+		1825FD631F0E71050074DCCE /* UITextFieldFontSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldFontSize.swift; sourceTree = "<group>"; };
+		1825FD681F0E71290074DCCE /* activityIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = activityIndicatorView.xib; sourceTree = "<group>"; };
+		1825FD6A1F0E72240074DCCE /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		1825FD6B1F0E72240074DCCE /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		1825FD6C1F0E72240074DCCE /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
+		1825FD6D1F0E72240074DCCE /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
+		1825FD6E1F0E72240074DCCE /* FontAwesomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeView.swift; sourceTree = "<group>"; };
+		182FF3C31F6E634E00B0BF19 /* FaqEnglishVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaqEnglishVC.swift; sourceTree = "<group>"; };
+		182FF3C51F6E648800B0BF19 /* PrivacyPolicyEnglishVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyEnglishVC.swift; sourceTree = "<group>"; };
+		182FF3C71F6E64C600B0BF19 /* TermsAndConditionsEnglishVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsEnglishVC.swift; sourceTree = "<group>"; };
+		182FF3C91F6E818800B0BF19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1840D6741F497ACC004362FB /* InstagramVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramVC.swift; sourceTree = "<group>"; };
+		1840D6791F49A620004362FB /* Preto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Preto-Bridging-Header.h"; sourceTree = "<group>"; };
+		18424A341F4021C70029D158 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		18424A351F4021C70029D158 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		18424A361F4021C70029D158 /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		18424A371F4021C70029D158 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		18424A3C1F4021D50029D158 /* MyriadPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Bold.otf"; sourceTree = "<group>"; };
+		18424A3E1F4021DD0029D158 /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.otf"; sourceTree = "<group>"; };
+		18424A401F402E120029D158 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		18424A431F4060B00029D158 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		18424A451F4060BB0029D158 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18424A491F4060E30029D158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		188BD3611F30A13E004F7A0C /* customAnnotationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customAnnotationClass.swift; sourceTree = "<group>"; };
+		189E3AFA1F42F93300D58EB8 /* DirectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionVC.swift; sourceTree = "<group>"; };
+		189E3AFC1F43162C00D58EB8 /* RestaurantScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		18E0F5071F2783BF0009E87E /* annotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = annotationView.xib; sourceTree = "<group>"; };
+		3E0E52C5FE02B1BA3713B4DD /* Pods-Preto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Preto/Pods-Preto.debug.xcconfig"; sourceTree = "<group>"; };
+		5AF77D9F830877C5FDCA9B87 /* Pods-PretoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PretoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PretoTests/Pods-PretoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F99FE14D438C3866D7D5248 /* Pods-PretoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PretoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PretoTests/Pods-PretoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		635F35158D34DEDF235EDA22 /* Pods_PretoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PretoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66992E4B539053219FE83575 /* Pods_PretoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PretoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E047E46087AA170A7F98797 /* Pods-PretoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PretoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PretoUITests/Pods-PretoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B87DEC290EF7653FEE9C925 /* Pods-Preto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Preto/Pods-Preto.release.xcconfig"; sourceTree = "<group>"; };
+		8E4B905DEF0E511053A1A083 /* Pods_Preto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Preto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFE13A149A357D0B7218434 /* Pods-PretoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PretoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PretoUITests/Pods-PretoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F92F9E571F24C34100229735 /* HowDosItWorkVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowDosItWorkVC.swift; sourceTree = "<group>"; };
+		F93890E21F6AFCA200B1DD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F93890E41F6AFCBB00B1DD1F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F944C2E51F7EB1AC00FF5FDC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F973D3F21F2DEDBF00491AE6 /* FavouriteRestaurantsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteRestaurantsVC.swift; sourceTree = "<group>"; };
+		F97DA2341F81FD84008343CC /* Preto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Preto.entitlements; sourceTree = "<group>"; };
+		F9AE07801F125A880014EC70 /* SelectLanguageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLanguageVC.swift; sourceTree = "<group>"; };
+		F9AE07821F125AD60014EC70 /* SelectLoginMethodVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLoginMethodVC.swift; sourceTree = "<group>"; };
+		F9AE07841F125B490014EC70 /* PrivacyPolicyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyVC.swift; sourceTree = "<group>"; };
+		F9AE07861F125B830014EC70 /* TermsConditionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsConditionsVC.swift; sourceTree = "<group>"; };
+		F9AE07881F125BF80014EC70 /* HelpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		F9AE078A1F125C430014EC70 /* FaqVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaqVC.swift; sourceTree = "<group>"; };
+		F9AE078C1F125C590014EC70 /* ContactUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		F9AE078E1F125CC20014EC70 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		F9AE07901F125D4B0014EC70 /* RestaurantDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailVC.swift; sourceTree = "<group>"; };
+		F9AE07921F1265EF0014EC70 /* RestaurantListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListTableViewCell.swift; sourceTree = "<group>"; };
+		F9AE07941F1266200014EC70 /* RestaurantListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListVC.swift; sourceTree = "<group>"; };
+		F9D7852A1F1B980D003E15A7 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		F9E1A5B51F1A2E94006BF11B /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F9E1A5BB1F1A31F3006BF11B /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F9E1A5BD1F1A519D006BF11B /* AdvancedFiltersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedFiltersVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1825FD101F0E6F1A0074DCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFFD8DBA11FE424DA8C03DA /* Pods_Preto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FD271F0E6F1A0074DCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779D50E67F1A7A2F955F43D7 /* Pods_PretoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FD321F0E6F1A0074DCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6630E8BC881C5C21478E78F3 /* Pods_PretoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1825FD0A1F0E6F1A0074DCCE = {
+			isa = PBXGroup;
+			children = (
+				1825FD151F0E6F1A0074DCCE /* Preto */,
+				1825FD2D1F0E6F1A0074DCCE /* PretoTests */,
+				1825FD381F0E6F1A0074DCCE /* PretoUITests */,
+				1825FD141F0E6F1A0074DCCE /* Products */,
+				193E266E19A2A0BA51B01A24 /* Pods */,
+				31E53103E56E0815C3B15868 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1825FD141F0E6F1A0074DCCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1825FD131F0E6F1A0074DCCE /* Preto.app */,
+				1825FD2A1F0E6F1A0074DCCE /* PretoTests.xctest */,
+				1825FD351F0E6F1A0074DCCE /* PretoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1825FD151F0E6F1A0074DCCE /* Preto */ = {
+			isa = PBXGroup;
+			children = (
+				F97DA2341F81FD84008343CC /* Preto.entitlements */,
+				1825FD681F0E71290074DCCE /* activityIndicatorView.xib */,
+				1840D6791F49A620004362FB /* Preto-Bridging-Header.h */,
+				18E0F5071F2783BF0009E87E /* annotationView.xib */,
+				188BD3611F30A13E004F7A0C /* customAnnotationClass.swift */,
+				F944C2E51F7EB1AC00FF5FDC /* GoogleService-Info.plist */,
+				18424A461F4060BB0029D158 /* Localizable.strings */,
+				F93890E31F6AFCA200B1DD1F /* InfoPlist.strings */,
+				1825FD731F0E72290074DCCE /* Fonts */,
+				1825FD671F0E71090074DCCE /* UIObjectFontSize */,
+				1825FD601F0E70ED0074DCCE /* LiveRendering */,
+				1825FD4B1F0E6FAA0074DCCE /* Wrapper */,
+				F9D785281F1B7F95003E15A7 /* ViewControllerClasses */,
+				1825FD161F0E6F1A0074DCCE /* AppDelegate.swift */,
+				F9E1A5BB1F1A31F3006BF11B /* Constant.swift */,
+				1825FD1A1F0E6F1A0074DCCE /* Main.storyboard */,
+				1825FD201F0E6F1A0074DCCE /* Assets.xcassets */,
+				1825FD221F0E6F1A0074DCCE /* LaunchScreen.storyboard */,
+				182FF3C91F6E818800B0BF19 /* Info.plist */,
+				1825FD1D1F0E6F1A0074DCCE /* Preto.xcdatamodeld */,
+			);
+			path = Preto;
+			sourceTree = "<group>";
+		};
+		1825FD2D1F0E6F1A0074DCCE /* PretoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1825FD2E1F0E6F1A0074DCCE /* PretoTests.swift */,
+				1825FD301F0E6F1A0074DCCE /* Info.plist */,
+			);
+			path = PretoTests;
+			sourceTree = "<group>";
+		};
+		1825FD381F0E6F1A0074DCCE /* PretoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1825FD391F0E6F1A0074DCCE /* PretoUITests.swift */,
+				1825FD3B1F0E6F1A0074DCCE /* Info.plist */,
+			);
+			path = PretoUITests;
+			sourceTree = "<group>";
+		};
+		1825FD4B1F0E6FAA0074DCCE /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				1825FD471F0E6FA10074DCCE /* AlamofireIntegration.swift */,
+				1825FD481F0E6FA10074DCCE /* FacebookIntegration.swift */,
+				1825FD501F0E708D0074DCCE /* LocalizedStringsCode.swift */,
+				1825FD511F0E708D0074DCCE /* CoreDataWrapper.swift */,
+			);
+			name = Wrapper;
+			sourceTree = "<group>";
+		};
+		1825FD601F0E70ED0074DCCE /* LiveRendering */ = {
+			isa = PBXGroup;
+			children = (
+				1825FD541F0E70E80074DCCE /* UIButtonCustomClass.swift */,
+				1825FD551F0E70E80074DCCE /* UILabelCustomClass.swift */,
+				1825FD561F0E70E80074DCCE /* UIViewCustomClass.swift */,
+				1825FD571F0E70E80074DCCE /* UIImageViewCustomClass.swift */,
+				1825FD581F0E70E80074DCCE /* UITextFieldCustomClass.swift */,
+			);
+			name = LiveRendering;
+			sourceTree = "<group>";
+		};
+		1825FD671F0E71090074DCCE /* UIObjectFontSize */ = {
+			isa = PBXGroup;
+			children = (
+				1825FD611F0E71050074DCCE /* UIButtonFontSize.swift */,
+				1825FD621F0E71050074DCCE /* UILabelFontSize.swift */,
+				1825FD631F0E71050074DCCE /* UITextFieldFontSize.swift */,
+				1823E4131F53227600D5B2BA /* UITextViewFontSize.swift */,
+			);
+			name = UIObjectFontSize;
+			sourceTree = "<group>";
+		};
+		1825FD731F0E72290074DCCE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18424A3E1F4021DD0029D158 /* MyriadPro-Regular.otf */,
+				18424A3C1F4021D50029D158 /* MyriadPro-Bold.otf */,
+				18424A401F402E120029D158 /* Lato-Semibold.ttf */,
+				18424A341F4021C70029D158 /* Lato-Black.ttf */,
+				18424A351F4021C70029D158 /* Lato-Bold.ttf */,
+				18424A361F4021C70029D158 /* Lato-Heavy.ttf */,
+				18424A371F4021C70029D158 /* Lato-Light.ttf */,
+				1825FD6A1F0E72240074DCCE /* Enum.swift */,
+				1825FD6B1F0E72240074DCCE /* FontAwesome.otf */,
+				1825FD6C1F0E72240074DCCE /* FontAwesome.h */,
+				1825FD6D1F0E72240074DCCE /* FontAwesome.swift */,
+				1825FD6E1F0E72240074DCCE /* FontAwesomeView.swift */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		193E266E19A2A0BA51B01A24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E0E52C5FE02B1BA3713B4DD /* Pods-Preto.debug.xcconfig */,
+				7B87DEC290EF7653FEE9C925 /* Pods-Preto.release.xcconfig */,
+				5F99FE14D438C3866D7D5248 /* Pods-PretoTests.debug.xcconfig */,
+				5AF77D9F830877C5FDCA9B87 /* Pods-PretoTests.release.xcconfig */,
+				DDFE13A149A357D0B7218434 /* Pods-PretoUITests.debug.xcconfig */,
+				6E047E46087AA170A7F98797 /* Pods-PretoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		31E53103E56E0815C3B15868 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B905DEF0E511053A1A083 /* Pods_Preto.framework */,
+				66992E4B539053219FE83575 /* Pods_PretoTests.framework */,
+				635F35158D34DEDF235EDA22 /* Pods_PretoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9D785281F1B7F95003E15A7 /* ViewControllerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F9AE07821F125AD60014EC70 /* SelectLoginMethodVC.swift */,
+				1825FD4D1F0E6FF20074DCCE /* RegistrationVC.swift */,
+				1825FD4C1F0E6FF20074DCCE /* LoginVC.swift */,
+				F9E1A5B51F1A2E94006BF11B /* HomeVC.swift */,
+				F9D7852A1F1B980D003E15A7 /* MapVC.swift */,
+				F9AE07941F1266200014EC70 /* RestaurantListVC.swift */,
+				F973D3F21F2DEDBF00491AE6 /* FavouriteRestaurantsVC.swift */,
+				F9AE07921F1265EF0014EC70 /* RestaurantListTableViewCell.swift */,
+				189E3AFC1F43162C00D58EB8 /* RestaurantScheduleTableViewCell.swift */,
+				F9AE07901F125D4B0014EC70 /* RestaurantDetailVC.swift */,
+				1840D6741F497ACC004362FB /* InstagramVC.swift */,
+				189E3AFA1F42F93300D58EB8 /* DirectionVC.swift */,
+				F9E1A5BD1F1A519D006BF11B /* AdvancedFiltersVC.swift */,
+				F9D785291F1B7FCC003E15A7 /* Settings */,
+			);
+			name = ViewControllerClasses;
+			sourceTree = "<group>";
+		};
+		F9D785291F1B7FCC003E15A7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F9AE07801F125A880014EC70 /* SelectLanguageVC.swift */,
+				F9AE07841F125B490014EC70 /* PrivacyPolicyVC.swift */,
+				182FF3C51F6E648800B0BF19 /* PrivacyPolicyEnglishVC.swift */,
+				F92F9E571F24C34100229735 /* HowDosItWorkVC.swift */,
+				F9AE07881F125BF80014EC70 /* HelpVC.swift */,
+				F9AE078A1F125C430014EC70 /* FaqVC.swift */,
+				182FF3C31F6E634E00B0BF19 /* FaqEnglishVC.swift */,
+				F9AE078C1F125C590014EC70 /* ContactUsVC.swift */,
+				F9AE078E1F125CC20014EC70 /* SettingsVC.swift */,
+				F9AE07861F125B830014EC70 /* TermsConditionsVC.swift */,
+				182FF3C71F6E64C600B0BF19 /* TermsAndConditionsEnglishVC.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1825FD121F0E6F1A0074DCCE /* Preto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825FD3E1F0E6F1A0074DCCE /* Build configuration list for PBXNativeTarget "Preto" */;
+			buildPhases = (
+				2D6146D99A132E87686209C8 /* [CP] Check Pods Manifest.lock */,
+				1825FD0F1F0E6F1A0074DCCE /* Sources */,
+				1825FD101F0E6F1A0074DCCE /* Frameworks */,
+				1825FD111F0E6F1A0074DCCE /* Resources */,
+				156ABABE720D5AFD0755F233 /* [CP] Embed Pods Frameworks */,
+				C220BC0E471E9C74BC66294E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Preto;
+			productName = Preto;
+			productReference = 1825FD131F0E6F1A0074DCCE /* Preto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1825FD291F0E6F1A0074DCCE /* PretoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825FD411F0E6F1A0074DCCE /* Build configuration list for PBXNativeTarget "PretoTests" */;
+			buildPhases = (
+				D2350F488316AEC1BB603E6E /* [CP] Check Pods Manifest.lock */,
+				1825FD261F0E6F1A0074DCCE /* Sources */,
+				1825FD271F0E6F1A0074DCCE /* Frameworks */,
+				1825FD281F0E6F1A0074DCCE /* Resources */,
+				3C22DBF5E6763AB7808066F6 /* [CP] Embed Pods Frameworks */,
+				EFCB94D1F9C46C150D5C6465 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1825FD2C1F0E6F1A0074DCCE /* PBXTargetDependency */,
+			);
+			name = PretoTests;
+			productName = PretoTests;
+			productReference = 1825FD2A1F0E6F1A0074DCCE /* PretoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1825FD341F0E6F1A0074DCCE /* PretoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825FD441F0E6F1A0074DCCE /* Build configuration list for PBXNativeTarget "PretoUITests" */;
+			buildPhases = (
+				44AD69FFF28C4F91CFCDB6D1 /* [CP] Check Pods Manifest.lock */,
+				1825FD311F0E6F1A0074DCCE /* Sources */,
+				1825FD321F0E6F1A0074DCCE /* Frameworks */,
+				1825FD331F0E6F1A0074DCCE /* Resources */,
+				455FED59D8AD6D4FCFE72151 /* [CP] Embed Pods Frameworks */,
+				A49F5E184030A98CC4967371 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1825FD371F0E6F1A0074DCCE /* PBXTargetDependency */,
+			);
+			name = PretoUITests;
+			productName = PretoUITests;
+			productReference = 1825FD351F0E6F1A0074DCCE /* PretoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1825FD0B1F0E6F1A0074DCCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1825FD121F0E6F1A0074DCCE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CBPPZERS39;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					1825FD291F0E6F1A0074DCCE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 854539W674;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1825FD121F0E6F1A0074DCCE;
+					};
+					1825FD341F0E6F1A0074DCCE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 854539W674;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1825FD121F0E6F1A0074DCCE;
+					};
+				};
+			};
+			buildConfigurationList = 1825FD0E1F0E6F1A0074DCCE /* Build configuration list for PBXProject "Preto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 1825FD0A1F0E6F1A0074DCCE;
+			productRefGroup = 1825FD141F0E6F1A0074DCCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1825FD121F0E6F1A0074DCCE /* Preto */,
+				1825FD291F0E6F1A0074DCCE /* PretoTests */,
+				1825FD341F0E6F1A0074DCCE /* PretoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1825FD111F0E6F1A0074DCCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182FF3CA1F6E818800B0BF19 /* Info.plist in Resources */,
+				18424A3A1F4021C70029D158 /* Lato-Heavy.ttf in Resources */,
+				1825FD241F0E6F1A0074DCCE /* LaunchScreen.storyboard in Resources */,
+				18424A3D1F4021D50029D158 /* MyriadPro-Bold.otf in Resources */,
+				18E0F5081F2783BF0009E87E /* annotationView.xib in Resources */,
+				F93890E11F6AFCA200B1DD1F /* InfoPlist.strings in Resources */,
+				18424A3B1F4021C70029D158 /* Lato-Light.ttf in Resources */,
+				1825FD701F0E72240074DCCE /* FontAwesome.otf in Resources */,
+				18424A3F1F4021DD0029D158 /* MyriadPro-Regular.otf in Resources */,
+				18424A411F402E120029D158 /* Lato-Semibold.ttf in Resources */,
+				18424A441F4060BB0029D158 /* Localizable.strings in Resources */,
+				18424A381F4021C70029D158 /* Lato-Black.ttf in Resources */,
+				F944C2E61F7EB1AC00FF5FDC /* GoogleService-Info.plist in Resources */,
+				1825FD211F0E6F1A0074DCCE /* Assets.xcassets in Resources */,
+				1825FD1C1F0E6F1A0074DCCE /* Main.storyboard in Resources */,
+				18424A391F4021C70029D158 /* Lato-Bold.ttf in Resources */,
+				1825FD691F0E71290074DCCE /* activityIndicatorView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FD281F0E6F1A0074DCCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FD331F0E6F1A0074DCCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		156ABABE720D5AFD0755F233 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Preto/Pods-Preto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D6146D99A132E87686209C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C22DBF5E6763AB7808066F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PretoTests/Pods-PretoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44AD69FFF28C4F91CFCDB6D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		455FED59D8AD6D4FCFE72151 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PretoUITests/Pods-PretoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A49F5E184030A98CC4967371 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PretoUITests/Pods-PretoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C220BC0E471E9C74BC66294E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Preto/Pods-Preto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2350F488316AEC1BB603E6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFCB94D1F9C46C150D5C6465 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PretoTests/Pods-PretoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1825FD0F1F0E6F1A0074DCCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F9E581F24C34100229735 /* HowDosItWorkVC.swift in Sources */,
+				182FF3C81F6E64C600B0BF19 /* TermsAndConditionsEnglishVC.swift in Sources */,
+				F9AE07871F125B830014EC70 /* TermsConditionsVC.swift in Sources */,
+				1825FD711F0E72240074DCCE /* FontAwesome.swift in Sources */,
+				182FF3C61F6E648800B0BF19 /* PrivacyPolicyEnglishVC.swift in Sources */,
+				1825FD5B1F0E70E80074DCCE /* UILabelCustomClass.swift in Sources */,
+				1825FD5A1F0E70E80074DCCE /* UIButtonCustomClass.swift in Sources */,
+				F9AE07851F125B490014EC70 /* PrivacyPolicyVC.swift in Sources */,
+				189E3AFB1F42F93300D58EB8 /* DirectionVC.swift in Sources */,
+				1825FD521F0E708D0074DCCE /* LocalizedStringsCode.swift in Sources */,
+				F9AE07891F125BF80014EC70 /* HelpVC.swift in Sources */,
+				1825FD651F0E71050074DCCE /* UILabelFontSize.swift in Sources */,
+				F9E1A5BC1F1A31F3006BF11B /* Constant.swift in Sources */,
+				1840D6751F497ACC004362FB /* InstagramVC.swift in Sources */,
+				1825FD531F0E708D0074DCCE /* CoreDataWrapper.swift in Sources */,
+				F9E1A5B61F1A2E94006BF11B /* HomeVC.swift in Sources */,
+				182FF3C41F6E634E00B0BF19 /* FaqEnglishVC.swift in Sources */,
+				1825FD5E1F0E70E80074DCCE /* UITextFieldCustomClass.swift in Sources */,
+				F973D3F31F2DEDBF00491AE6 /* FavouriteRestaurantsVC.swift in Sources */,
+				F9AE07811F125A880014EC70 /* SelectLanguageVC.swift in Sources */,
+				1825FD491F0E6FA10074DCCE /* AlamofireIntegration.swift in Sources */,
+				F9AE07911F125D4B0014EC70 /* RestaurantDetailVC.swift in Sources */,
+				F9AE078F1F125CC20014EC70 /* SettingsVC.swift in Sources */,
+				1825FD661F0E71050074DCCE /* UITextFieldFontSize.swift in Sources */,
+				F9AE078D1F125C590014EC70 /* ContactUsVC.swift in Sources */,
+				1825FD721F0E72240074DCCE /* FontAwesomeView.swift in Sources */,
+				F9E1A5BE1F1A519D006BF11B /* AdvancedFiltersVC.swift in Sources */,
+				F9AE078B1F125C430014EC70 /* FaqVC.swift in Sources */,
+				1825FD4E1F0E6FF20074DCCE /* LoginVC.swift in Sources */,
+				F9AE07931F1265EF0014EC70 /* RestaurantListTableViewCell.swift in Sources */,
+				1825FD1F1F0E6F1A0074DCCE /* Preto.xcdatamodeld in Sources */,
+				188BD3621F30A13E004F7A0C /* customAnnotationClass.swift in Sources */,
+				F9D7852B1F1B980D003E15A7 /* MapVC.swift in Sources */,
+				189E3AFD1F43162C00D58EB8 /* RestaurantScheduleTableViewCell.swift in Sources */,
+				1823E4141F53227600D5B2BA /* UITextViewFontSize.swift in Sources */,
+				1825FD5D1F0E70E80074DCCE /* UIImageViewCustomClass.swift in Sources */,
+				F9AE07951F1266200014EC70 /* RestaurantListVC.swift in Sources */,
+				1825FD5C1F0E70E80074DCCE /* UIViewCustomClass.swift in Sources */,
+				1825FD171F0E6F1A0074DCCE /* AppDelegate.swift in Sources */,
+				1825FD641F0E71050074DCCE /* UIButtonFontSize.swift in Sources */,
+				1825FD4F1F0E6FF20074DCCE /* RegistrationVC.swift in Sources */,
+				1825FD6F1F0E72240074DCCE /* Enum.swift in Sources */,
+				F9AE07831F125AD60014EC70 /* SelectLoginMethodVC.swift in Sources */,
+				1825FD4A1F0E6FA10074DCCE /* FacebookIntegration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FD261F0E6F1A0074DCCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825FD2F1F0E6F1A0074DCCE /* PretoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FD311F0E6F1A0074DCCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825FD3A1F0E6F1A0074DCCE /* PretoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1825FD2C1F0E6F1A0074DCCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1825FD121F0E6F1A0074DCCE /* Preto */;
+			targetProxy = 1825FD2B1F0E6F1A0074DCCE /* PBXContainerItemProxy */;
+		};
+		1825FD371F0E6F1A0074DCCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1825FD121F0E6F1A0074DCCE /* Preto */;
+			targetProxy = 1825FD361F0E6F1A0074DCCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1825FD1A1F0E6F1A0074DCCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1825FD1B1F0E6F1A0074DCCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1825FD221F0E6F1A0074DCCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1825FD231F0E6F1A0074DCCE /* Base */,
+				18424A431F4060B00029D158 /* es */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18424A461F4060BB0029D158 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18424A451F4060BB0029D158 /* es */,
+				18424A491F4060E30029D158 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F93890E31F6AFCA200B1DD1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93890E21F6AFCA200B1DD1F /* Base */,
+				F93890E41F6AFCBB00B1DD1F /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1825FD3C1F0E6F1A0074DCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: COMUNIDAD PRETO S A S (CBPPZERS39)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: COMUNIDAD PRETO S A S (CBPPZERS39)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QEJE9434B3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "83bd9313-2ef6-4bf6-9798-4b450db02fbf";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1825FD3D1F0E6F1A0074DCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: COMUNIDAD PRETO S A S (CBPPZERS39)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: COMUNIDAD PRETO S A S (CBPPZERS39)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QEJE9434B3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "83bd9313-2ef6-4bf6-9798-4b450db02fbf";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1825FD3F1F0E6F1A0074DCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0E52C5FE02B1BA3713B4DD /* Pods-Preto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Preto/Preto.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: COMUNIDAD PRETO S A S (CBPPZERS39)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: COMUNIDAD PRETO S A S (CBPPZERS39)";
+				DEVELOPMENT_TEAM = CBPPZERS39;
+				INFOPLIST_FILE = Preto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tucan.pretoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "83bd9313-2ef6-4bf6-9798-4b450db02fbf";
+				PROVISIONING_PROFILE_SPECIFIER = Preto_App_DIST;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1825FD401F0E6F1A0074DCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B87DEC290EF7653FEE9C925 /* Pods-Preto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Preto/Preto.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: COMUNIDAD PRETO S A S (CBPPZERS39)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: COMUNIDAD PRETO S A S (CBPPZERS39)";
+				DEVELOPMENT_TEAM = CBPPZERS39;
+				INFOPLIST_FILE = Preto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tucan.pretoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "83bd9313-2ef6-4bf6-9798-4b450db02fbf";
+				PROVISIONING_PROFILE_SPECIFIER = Preto_App_DIST;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1825FD421F0E6F1A0074DCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F99FE14D438C3866D7D5248 /* Pods-PretoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 854539W674;
+				INFOPLIST_FILE = PretoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tucan.pretoapp.PretoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Preto.app/Preto";
+			};
+			name = Debug;
+		};
+		1825FD431F0E6F1A0074DCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF77D9F830877C5FDCA9B87 /* Pods-PretoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 854539W674;
+				INFOPLIST_FILE = PretoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tucan.pretoapp.PretoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Preto.app/Preto";
+			};
+			name = Release;
+		};
+		1825FD451F0E6F1A0074DCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFE13A149A357D0B7218434 /* Pods-PretoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 854539W674;
+				INFOPLIST_FILE = PretoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tucan.pretoapp.PretoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Preto;
+			};
+			name = Debug;
+		};
+		1825FD461F0E6F1A0074DCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E047E46087AA170A7F98797 /* Pods-PretoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 854539W674;
+				INFOPLIST_FILE = PretoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tucan.pretoapp.PretoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Preto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1825FD0E1F0E6F1A0074DCCE /* Build configuration list for PBXProject "Preto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FD3C1F0E6F1A0074DCCE /* Debug */,
+				1825FD3D1F0E6F1A0074DCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1825FD3E1F0E6F1A0074DCCE /* Build configuration list for PBXNativeTarget "Preto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FD3F1F0E6F1A0074DCCE /* Debug */,
+				1825FD401F0E6F1A0074DCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1825FD411F0E6F1A0074DCCE /* Build configuration list for PBXNativeTarget "PretoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FD421F0E6F1A0074DCCE /* Debug */,
+				1825FD431F0E6F1A0074DCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1825FD441F0E6F1A0074DCCE /* Build configuration list for PBXNativeTarget "PretoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FD451F0E6F1A0074DCCE /* Debug */,
+				1825FD461F0E6F1A0074DCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1825FD1D1F0E6F1A0074DCCE /* Preto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1825FD1E1F0E6F1A0074DCCE /* Preto.xcdatamodel */,
+			);
+			currentVersion = 1825FD1E1F0E6F1A0074DCCE /* Preto.xcdatamodel */;
+			path = Preto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1825FD0B1F0E6F1A0074DCCE /* Project object */;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Restaurant" representedClassName="Restaurant" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="color" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="histroy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="images" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instagram_account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isActive" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFavourite" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isHomeDeliveryAvailable" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isLiked" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lattitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="likesCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="menu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="operatingHours" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="other" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="paymentMethod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priceFrom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priceTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registered_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="restDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="restID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="restName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servicePhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serviceStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeOfFood" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="web_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Restaurant" positionX="-63" positionY="-18" width="128" height="495"/>
+    </elements>
+</model>

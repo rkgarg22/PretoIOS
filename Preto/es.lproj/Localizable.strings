@@ -1,0 +1,265 @@
+
+
+// General
+alert.okButtonTitle = "De acuerdo";
+alert.yesButtonTitle = "Sí";
+alert.noButtonTitle = "No";
+alert.cancelButtonTitle = "cancelar";
+serverFailureResponseMessage = "Error del Servidor";
+errorAlertTitle = "Preto";
+successAlertTitle = "éxito";
+warningAlertTitle = "advertencia";
+andText = "y";
+gpsDisableMessage = "Cambia el permiso de gps para la aplicación en la configuración de tu dispositivo";
+internetConnectivityMessage = "Se requiere conexión a Internet";
+logOutMessage = "¿Seguro que quieres cerrar la sesión?";
+pullToRefersh = "Tire para actualizar";
+
+
+// Categories name
+
+breakFast = "DESAYUNO";
+lunch = "ALMUERZO";
+dinner = "CENA";
+preOrder = "POR ENCARGO";
+snacks = "ANTOJOS";
+supplies = "INSUMOS";
+nearYou = "CERCA DE TÍ";
+
+
+
+// Select login method
+
+facebookEmailNotExist = "Correo electrónico de Facebook no existe";
+
+
+// Sign up and login
+emailFieldEmptyAlertMessage = "Ingrese su dirección de correo electrónico";
+passwordFieldEmptyAlertMessage = "Introducir la contraseña";
+confirmEmailErrorMessage = "el email no coincide";
+
+// Sign up
+passwordFieldMatchAlertMessage = "Las contraseñas no coinciden";
+signUpVc.NameFieldEmptyAlertMessage = "Introduzca su nombre";
+signUpVc.InvalidEmailAlertMessage = "Dirección de E-Mail incorrecta";
+signUpVc.EmailAlreadyExistAlertMessage = "E-mail id ya existe";
+signUpVc.checkPrivacyPolicyMessage = "Acepto la política de privacidad";
+
+
+// Conatct us
+apiSuccessMessage = "Mensaje enviado con éxito";
+phoneFieldEmptyAlertMessage = "Ingresa número telefónico";
+subjectFieldEmptyAlertMessage = "Introduzca el asunto";
+messageFieldEmptyAlertMessage = "Introducir mensaje";
+
+
+// Directions
+directionsError = "Direcciones no encontradas";
+
+
+// restaurant list and detail
+
+fromText = "Desde $";
+toText = " - hasta $";
+openText = "Abierto";
+noFixedTimeText = "Sin horario fijo";
+closed = "Cerrado";
+list = "LISTA";
+map = "MAPA";
+cancel = "Cancelar";
+toOpenWith = "Abrir con";
+
+
+// Favourites
+favourite = "FAVORITOS";
+
+
+// restaurant detail
+noMailAccountAlertMessage = "Comprueba la configuración del correo en la configuración del dispositivo y vuelve a intentarlo.";
+noMailAccountAlertTitle = "No se pudo enviar correo electrónico";
+
+registeredSinceText = "Fecha registro: ";
+informationText = "INFORMACIÓN";
+menuText = "MENÚ";
+addToFavoritesText = "AGREGAR A FAVORITOS";
+opensOnText = "Horario";
+descriptionText = "Descripción";
+historyText = "Historia";
+paymentMethods = "Forma de pago";
+othersText = "Otros";
+websiteText = "Sitio web";
+domicilioText = "Domicilios";
+commentsText = "Comentarios";
+callText = "Llamar al sitio";
+callViewPopupTitle = "Te recomendamos";
+callViewDetailTitle = "Este sitio recomienda llamar a confirmar la disponibilidad de productos.";
+phoneNumberNotAvial = "Número de teléfono no disponible";
+showText = "Espectáculo";
+hideText = "Esconder";
+
+
+// Change language
+changeLanguageSuccess = "Idioma cambiado con éxito";
+
+// Maps
+restaurantAddressNotFound = "Dirección del restaurante no encontrada";
+writeYourLocation = "Ingresar una ubicación";
+
+
+// Settings
+
+privacyPolicy = "POLÍTICA DE DATOS";
+termsConditions = "TÉRMINOS Y CONDICIONES";
+help = "AYUDA";
+contactUs = "CONTÁCTENOS";
+selectLanguage = "CAMBIAR IDIOMA";
+logout = "CERRAR SESIÓN";
+
+
+
+// Filters
+titleLabelText = "FILTROS AVANZADOS";
+invalidRange = "El rango de precios no es válido";
+openNowText = "Abierto ahora";
+averageCostTitle = "Rango precio";
+from = "Desde";
+to = "Hasta";
+categoryText = "Categoría";
+
+typesOfFoodText = "Tipo de comida";
+
+americanaText = "Americana";
+crepesText = "Crepes";
+arabeText = "Árabe";
+cubanaText = "Cubana";
+brasileraText = "Brasilera";
+signatureCuisineText = "De autor";
+meatsText = "Carnes";
+espanolaText = "Española";
+cateringText = "Catering/Eventos";
+FrancesaText = "Francesa";
+ChinaText = "China";
+fusionText = "Fusión";
+griegaText = "Griega";
+mexicanaText = "Mexicana";
+hamburgersText = "Hamburguesas";
+orientalText = "Oriental";
+heladosText = "Helados";
+otrosText = "Otros";
+indiaText = "India";
+panaderiaText = "Panadería";
+insumosText = "Insumos";
+ParrillaText = "Parrilla";
+internationalText = "Internacional";
+peruvianText = "Peruana";
+italianText = "Italiana";
+fishAndShellFishText = "Pescados y Mariscos";
+japoneseText = "Japonesa";
+pizzaText = "Pizzas";
+mediterraneanText = "Mediterranea";
+fastText = "Rápida";
+reposteraiText = "Repostería";
+thaiText = "Thai";
+healthyText = "Saludable";
+typicalText = "Tipica";
+sandwichText = "Sandwich";
+vegetarianText = "Vegetariana";
+sushiText = "Sushi";
+vietnamaText = "Vietnamita";
+
+arrangeByNoLikesText = "Número de Likes";
+deliveryText = "Domicilio";
+togoText = "Para llevar";
+paymentMethodText = "Forma de pago";
+cashText = "Efectivo";
+sodexoText = "Sodexo";
+debitCardText = "T. débito";
+bigPassText = "Big pass";
+creditCardText = "T. crédito";
+okButtonText = "ACEPTAR";
+
+
+
+
+
+
+
+
+// Select language
+
+Language = "IDIOMA";
+english = "English";
+spanish = "Español";
+
+
+// select login method
+
+FacebookButtonText = "Continuar con\nFacebook";
+mailButtonText = "Continuar con\nEmail";
+
+
+// Registration
+
+nameTextField = "Nombre";
+emailTextField = "Correo";
+confirmEmailTextField = "Confirmar Correo";
+password = "Contraseña";
+acceptTermsAndPrivacy = "Al crear una cuenta, usted se compromete a las condiciones del servicio de PRETO políticas de privacidad y de contenido";
+acceptButtonText = "ACEPTO";
+registerButtonText = "      REGISTRATE     ";
+alreadyHaveAccount = "¿Ya tienes una cuenta? Inicia sesión";
+
+
+// Login
+
+signinButton = "    INICIAR SESIÓN     ";
+
+// Privacy policy
+
+privacyPolicyTitle = "POLÍTICA DE PRIVACIDAD";
+
+
+
+// terms conditions
+
+termsConditionsTitle = "TÉRMINOS Y CONDICIONES";
+
+
+
+// help
+
+helpTitle = "AYUDA";
+howDoesItWork = "CÓMO FUNCIONA";
+faq = "FAQ";
+
+
+
+// contact us
+
+conatctUsTitle = "CONTACTO";
+nameLabel = "NOMBRE :";
+phoneLabel = "TELÉFONO :";
+emailLabel = "CORREO :";
+subjectLabel = "ASUNTO :";
+messageLabel = "MENSAJE :";
+sendButtonText = "    ENVIAR    ";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
