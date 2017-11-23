@@ -173,9 +173,9 @@ togoText = "Para llevar";
 paymentMethodText = "Forma de pago";
 cashText = "Efectivo";
 sodexoText = "Sodexo";
-debitCardText = "T. débito";
+debitCardText = "T.débito";
 bigPassText = "Big pass";
-creditCardText = "T. crédito";
+creditCardText = "T.crédito";
 okButtonText = "ACEPTAR";
 
 
@@ -248,7 +248,11 @@ sendButtonText = "    ENVIAR    ";
 
 
 
+// login screen alert
 
+loginAlertMessage = "Para acceder a esta función debes registrarte una única vez";
+loginAlertOkText = "De acuerdo";
+loginAlertCancelText = "Cancelar";
 
 
 

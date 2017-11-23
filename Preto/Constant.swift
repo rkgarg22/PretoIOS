@@ -94,8 +94,20 @@ func convertHtmlStringToPlainString(htmlString:String) -> String {
 }
 
 func moveToSelectLoginMethodScreen(reference:UIViewController) {
-    let selectLoginMethodVcObj = reference.storyboard?.instantiateViewController(withIdentifier: "selectLoginMethodVc") as! SelectLoginMethodVC
-    reference.navigationController?.pushViewController(selectLoginMethodVcObj, animated: true)
+    
+    let alert = UIAlertController(title: nil, message: NSLocalizedString("loginAlertMessage", tableName: nil, bundle: applicationDelegate.languageBundle, value: "", comment: "login alert message"),preferredStyle: UIAlertControllerStyle.alert)
+    
+    alert.addAction(UIAlertAction(title: NSLocalizedString("loginAlertOkText", tableName: nil, bundle: applicationDelegate.languageBundle, value: "", comment: "login alert message"), style: .default, handler: { (UIAlertAction) in
+        let selectLoginMethodVcObj = reference.storyboard?.instantiateViewController(withIdentifier: "selectLoginMethodVc") as! SelectLoginMethodVC
+        reference.navigationController?.pushViewController(selectLoginMethodVcObj, animated: true)
+    }))
+    
+    alert.addAction(UIAlertAction(title: NSLocalizedString("loginAlertCancelText", tableName: nil, bundle: applicationDelegate.languageBundle, value: "", comment: "login alert message"), style: .default, handler: { (UIAlertAction) in
+        alert.dismiss(animated: true, completion: nil)
+    }))
+    
+    reference.present(alert, animated: true, completion: nil)
+    
 }
 
 
@@ -113,7 +125,7 @@ func showAlert (_ reference:UIViewController, message:String, title:String){
         alert = UIAlertController(title: title, message: message,preferredStyle: UIAlertControllerStyle.alert)
     }
     
-    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+    alert.addAction(UIAlertAction(title: NSLocalizedString("loginAlertOkText", tableName: nil, bundle: applicationDelegate.languageBundle, value: "", comment: "login alert message"), style: UIAlertActionStyle.default, handler: nil))
     reference.present(alert, animated: true, completion: nil)
     
 }

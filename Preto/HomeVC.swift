@@ -69,6 +69,16 @@ class HomeVC: UIViewController, UITextFieldDelegate, getJungleBoxBannerServiceAl
         }
     }
     
+    @IBAction func favouriteButton(_ sender: UIButton) {
+        if userDefault.bool(forKey: USER_DEFAULT_LOGIN_CHECK_Key) {
+            let favouriteRestaurantsVcObj = self.storyboard?.instantiateViewController(withIdentifier: "favouriteRestaurantsVc") as! FavouriteRestaurantsVC
+            self.navigationController?.pushViewController(favouriteRestaurantsVcObj, animated: true)
+        }
+        else {
+            moveToSelectLoginMethodScreen(reference:self)
+        }
+    }
+    
     @IBAction func jungleboxButton(_ sender: UIButton) {
         let instagramVcObj = self.storyboard?.instantiateViewController(withIdentifier: "instagramVc") as! InstagramVC
         if bannerLaddingUrl == "" {

@@ -274,8 +274,11 @@ sendButtonText = "    SEND    ";
 
 
 
+// login screen alert
 
-
+loginAlertMessage = "To access this function please login first";
+loginAlertOkText = "Ok";
+loginAlertCancelText = "Cancel";
 
 
 
