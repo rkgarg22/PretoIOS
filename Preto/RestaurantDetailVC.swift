@@ -477,10 +477,17 @@ class RestaurantDetailVC: UIViewController,markLikeServiceAlamofire,markFavourit
             scheduleTableviewHeightConstraint.constant = scheduleTableview.contentSize.height
         }
         else{
-            isOpenLabel.isHidden = false
-            scheduleTableviewHeightConstraint.constant = 0
             dotLabel.textColor = hexStringToUIColor(hex: greyDotColourString)
             self.callRecommendView.isHidden = false
+            
+            if self.operatingHoursArray.count == 0 {
+                isOpenLabel.isHidden = false
+                scheduleTableviewHeightConstraint.constant = 0
+            }
+            else {
+                isOpenLabel.isHidden = true
+                scheduleTableviewHeightConstraint.constant = scheduleTableview.contentSize.height
+            }
         }
         
         

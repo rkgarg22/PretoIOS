@@ -141,7 +141,7 @@ class RestaurantListVC: UIViewController,UITableViewDataSource,UITableViewDelega
         if isComingFromFilters {
             _ = self.navigationController?.popViewController(animated: true)
         }
-        else{
+        else {
             let advancedFiltersVcObj = self.storyboard?.instantiateViewController(withIdentifier: "advancedFiltersVc") as! AdvancedFiltersVC
             advancedFiltersVcObj.parametersDict = self.parametersDict
             advancedFiltersVcObj.delegate = self
@@ -288,6 +288,7 @@ class RestaurantListVC: UIViewController,UITableViewDataSource,UITableViewDelega
                 }
                 
                 let dataArray = result.value(forKey: "result") as! NSArray
+                print(dataArray.count)
                 for item in dataArray {
                     let dict = item as! NSDictionary
                     let mutableDict = dict.mutableCopy()
@@ -424,7 +425,7 @@ class RestaurantListVC: UIViewController,UITableViewDataSource,UITableViewDelega
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         if (applicationDelegate.isConnectedToNetwork) {
-            if indexPath.row == ((self.offset)*20) {
+            if indexPath.row == (((self.offset)*20) - self.offset) {
                 if (!isRestaurantTableUpdating) {
                     footerViewHeightConstraint.constant = 30
                     footerActivityIndicator.startAnimating()

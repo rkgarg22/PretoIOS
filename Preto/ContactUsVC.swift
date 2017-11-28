@@ -61,7 +61,8 @@ class ContactUsVC: UIViewController, contactUsServiceAlamofire, UITextViewDelega
         let toolbar = UIToolbar()
         toolbar.sizeToFit()
         toolbar.barStyle = .default
-        toolbar.tintColor = UIColor.white
+        toolbar.barTintColor = UIColor.white
+        toolbar.tintColor = UIColor.black
         
         let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target:self, action:#selector(ContactUsVC.doneButtonTapped))
         doneButton.tintColor = UIColor.black

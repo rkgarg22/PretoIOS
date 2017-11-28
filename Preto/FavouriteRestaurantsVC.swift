@@ -234,6 +234,7 @@ class FavouriteRestaurantsVC: UIViewController ,UITableViewDataSource,UITableVie
                 }
                 
                 let dataArray = result.value(forKey: "result") as! NSArray
+                print(dataArray.count)
                 for item in dataArray {
                     let dict = item as! NSDictionary
                     let mutableDict = dict.mutableCopy()
@@ -348,7 +349,7 @@ class FavouriteRestaurantsVC: UIViewController ,UITableViewDataSource,UITableVie
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         if (applicationDelegate.isConnectedToNetwork) {
-            if indexPath.row == ((self.offset)*20) {
+            if indexPath.row == (((self.offset)*20) - self.offset) {
                 if (!isRestaurantTableUpdating) {
                     footerViewHeightConstraint.constant = 30
                     footerActivityIndicator.startAnimating()
