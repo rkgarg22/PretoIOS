@@ -531,6 +531,7 @@ class RestaurantListVC: UIViewController,UITableViewDataSource,UITableViewDelega
     }
     
     func updateMap() {
+        self.mapView.clear();
         if applicationDelegate.latitude != 0 && applicationDelegate.longitude != 0 {
             let camera: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: applicationDelegate.latitude, longitude: applicationDelegate.longitude, zoom: 15.0)
             self.mapView.camera = camera
