@@ -74,11 +74,13 @@ class RestaurantListTableViewCell: UITableViewCell {
         }
         
         if let distance = (dict.value(forKey: "distance") as AnyObject).stringValue {
-            let text = distance + " km."
+            let myDouble = Double(distance)
+            let doubleStr = String(format: "%.2f", myDouble!)
+            let text = doubleStr + " km."
             distanceLabel.text = text
         }
         
-         let restaurantName = dict.value(forKey: "restName") as? String ?? ""
+        let restaurantName = dict.value(forKey: "restName") as? String ?? ""
         restaurantNameLabel.text = convertHtmlStringToPlainString(htmlString: restaurantName)
         
         let imageUrlString = dict.value(forKey: "images") as? String ?? ""

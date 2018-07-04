@@ -431,7 +431,9 @@ class RestaurantDetailVC: UIViewController,markLikeServiceAlamofire,markFavourit
         
         if let distance = restaurantDataDict.value(forKey: "distance") as? NSNumber {
             let distanceString = String(describing:distance)
-            distanceLabel.text = distanceString + " km."
+            let myDouble = Double(distanceString)
+            let doubleStr = String(format: "%.2f", myDouble!)
+            distanceLabel.text = doubleStr + " km."
         }
         
         //        if applicationDelegate.isConnectedToNetwork{

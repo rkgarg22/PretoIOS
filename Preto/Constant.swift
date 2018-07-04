@@ -17,7 +17,8 @@ let blueAppThemeColor = UIColor(colorLiteralRed: 0/255, green: 25/255, blue: 138
 let mailRecipient = "contacto@preto.co"
 let howDoesItWorkurl = "https://youtu.be/WViVVzHhGYA"
 
-var baseUrl = "http://ec2-13-59-34-53.us-east-2.compute.amazonaws.com/webservices/"
+//http://18.219.42.27/webservices/
+var baseUrl = "http://18.219.42.27/webservices/"
 let deviceType = "iOS"
 let successKey = "success"
 let errorKey = "error"
